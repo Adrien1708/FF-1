@@ -4,6 +4,35 @@ h1 {
 }
 
 body {
-  background-color: rgb(16, 77, 16);
-  background: 'Hexenhaus.jpeg';
+  background-color: rgb(19, 78, 19);
+  background-image: url("Hexenhaus.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: -50%;
 }
+div{
+  position:relative;
+  top:10vh; left:42vh;
+  font-size:300%
+}
+
+
+.besen{
+  position:absolute;
+  top:39vh; 
+  left:45vh;
+  transform: rotate(-130deg)
+}
+.herz{position:absolute;
+  top:21vh;
+  left:43vh;
+  font-size:2rem;
+  display: hidden;
+  }
+
+  .zaehler {
+    position: absolut;
+    left:1vh;
+    bottom:1vh;
+  }
